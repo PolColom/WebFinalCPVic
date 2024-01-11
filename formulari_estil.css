@@ -18,7 +18,7 @@ header {
 
 
 .container {
-    background-color: #fb0404b8;
+    background-color:  aliceblue;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
@@ -36,7 +36,7 @@ form {
 label {
     margin-bottom: 8px;
     width: 100%;
-    color: #ffffff;
+    color: #dd3232;
 }
 
 input,
@@ -44,17 +44,17 @@ textarea,
 select {
     padding: 10px;
     margin-bottom: 16px;
-    border: 1px solid #ffffff;
+    border: 1px solid #e82b2b;
     border-radius: 4px;
     width: 100%;
-    color: #ffffff;
+    color: #000000; /* input */
     background-color: transparent;
 }
 
 button {
     padding: 10px;
     background-color: #ffffff;
-    color: #ff0000;
+    color: #e21f1f;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -62,8 +62,8 @@ button {
 }
 
 button:hover {
-    background-color: #efeded;
-    color: #000000;
+    background-color: #ff0000;
+    color: #f2f2f2;
 }
 
 
