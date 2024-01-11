@@ -1,0 +1,1310 @@
+/* __________________________________________________________________________________ */
+/*        HTML Landing Page          */
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="estil.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+	<header>
+		<a href="web.html"><img class="logo" src="imatges/escut.png" alt="logo" width="40%" height="40%"></a>
+		<nav>
+			<ul class="nav_links">
+				<li><a href="serveis.html">Serveis</a></li>
+				<li><a href="noticies.html">Notícies</a></li>
+				<li><a href="galeria.html">Galeria</a></li>
+				<li><a href="nosaltres.html">Sobre Nosaltres</a></li>
+			</ul>
+		</nav>
+		<a class="cta" href="serveis.html"><button>Apunta't</button></a>
+	</header>
+
+	<div class="row">
+		<div class="títol">
+			<h1 id="animate-header">Club Patí Vic</h1>
+			<a class="cta" href="nosaltres.html"><button type="buton" class="boto">Patinant des del 1951</button></a>
+			<video id="video" muted autoplay loop>
+				<source src="imatges/VideoCPVic_Copes.mp4" type="video/mp4">
+			</video>
+		</div>
+	</div>
+
+	<section class="cta-icones">
+		<h2>Fes-te Soci</h2>
+		<h4>Inscriu-te Avui per Poder Gaudir del Nostre Club</h4>
+
+		<div class="files">
+			<div class="fotos-llargues">
+				<a href="apuntat.html" target="_blank"></a>
+				<img src="imatges/FFont2.jpg">
+				<div class="layer">
+					<h5>HOQUEI</h5>
+					<p>Patina Cap a la Victòria</p>
+				</div>
+			</div>
+
+			<div class="fotos-llargues">
+				<img src="imatges/Patinatge.jpg">
+				<div class="layer">
+					<h5>PATINATGE</h5>
+					<p>L'expressió Corporal Sobre Rodes</p>
+				</div>
+			</div>
+
+			<div class="fotos-llargues">
+				<img src="imatges/Tennis.png">
+				<div class="layer">
+					<h5>TENNIS / PÀDEL</h5>
+					<p>Agafa la Raquèta i Disfruta d'un Bon Partit</p>
+				</div>
+			</div>
+
+			<div class="fotos-llargues">
+				<img src="imatges/Activitats Petita.jpg">
+				<div class="layer">
+					<h5>Piscina Outdoor i Indoor</h5>
+					<p>Gaudeix de l'Aigua</p>
+				</div>
+			</div>
+		</div>
+		<a class="cta" href="serveis.html"><button type="buton" class="boto">VULL SER SOCI</button></a>
+
+	</section>
+
+	<section class="noticies">
+		<h2>Notícies</h2>
+		<h4>Gaudex del que està passant</h4>
+
+		<div class="files2">
+			<div class="noticies-col1">
+				<h5>Vigatants 1705 a Portugal</h5>
+				<p>Un Viatge Inoblidable</p>
+				<a class="cta" href="https://www.facebook.com/Vigatans1705/"><button>Llegir</button></a>
+
+			</div>
+
+			<div class="noticies-col2">
+				<h5>Què va passar al Dèrvi?</h5>
+				<p>Vic vs Voltregà</p>
+				<a class="cta"
+					href="https://www.naciodigital.cat/osona/galeria/1939/foto/70506"><button>Llegir</button></a>
+
+			</div>
+
+			<div class="noticies-col3">
+				<h5>Esclat a Itàlia</h5>
+				<p>El Benfica Guanya la Lliga Italiana</p>
+				<a class="cta"
+					href="https://www.youtube.com/watch?v=H16SW2_S0gQ&ab_channel=HockeyGlobal"><button>Llegir</button></a>
+
+			</div>
+			<div class="noticies-col4">
+				<h5>La Il·lusió Mou Muntanyes</h5>
+				<p>Titi Roca Sobre la Final Four</p>
+				<a class="cta"
+					href="https://www.lesportiudecatalunya.cat/article/849127-lla-ilmlusio-mou-muntanyesr.html"><button>Llegir</button></a>
+
+			</div>
+			<div class="noticies-col5">
+				<h5>Copa del Rey</h5>
+				<p>El CPVic Albergará l'Edició 2012/13</p>
+				<a class="cta" href="https://fep.es/website/noticias.asp?idnoticia=6513"><button>Llegir</button></a>
+
+			</div>
+			<div class="noticies-col6">
+				<h5>Mor Joan Rosanas</h5>
+				<p>Tècnic Llegendàri de Clubs Osonencs</p>
+				<a class="cta"
+					href="https://el9nou.cat/osona-ripolles/actualitat/mor-joan-rosanas-persona-molt-vinculada-a-lhoquei-osonenc/"><button>Llegir</button></a>
+			</div>
+			<div class="noticies-col7">
+				<h5>El Cor del Club</h5>
+				<p>En Ramón i la Paquita ens Expliquen la Seva Experència com a Restauradors del CPVic</p>
+				<a class="cta"
+					href="https://www.youtube.com/watch?v=9JOBclgDHpg&ab_channel=ClubPat%C3%ADVic"><button>Llegir</button></a>
+			</div>
+			<div class="noticies-col8">
+				<h5>El Vic Destrueix el Voltregà</h5>
+				<p>Un 6-0 que serà Recordat com una nit Màgica per als Vigatans</p>
+				<a class="cta"
+					href="https://www.youtube.com/watch?v=75fr2dB5XGo&ab_channel=ClubPat%C3%ADVic"><button>Llegir</button></a>
+			</div>
+			<div class="noticies-col9">
+				<h5>Joan Pujalte Sobre l'Enfrontament amb el Benfica</h5>
+				<p>El Tècnic ens Explica els seus Pensaments</p>
+				<a class="cta"
+					href="https://www.youtube.com/watch?v=WvM21-nLt2I&ab_channel=ClubPat%C3%ADVic"><button>Llegir</button></a>
+			</div>
+		</div>
+	</section>
+
+	<section class="espai">
+		<div class="contanier_galeria">
+			<h2>Galeria d'Imatges</h2>
+			<h4>Visita les Fotografíes del Nostre Club</h4>
+
+			<div class="bloc_imatges">
+				<div class="img_columna">
+					<img src="imatges/Seccio de Pàdel.jpg" alt="">
+					<div class="layer2">
+						<h5>Club de Pàdel</h5>
+						<p>Diverteix-te en Grup</p>
+					</div>
+				</div>
+				<div class="img_columna">
+					<img src="imatges/Padel2.jpg" alt="">
+					<div class="layer2">
+						<h5>Torneig Pàdel</h5>
+						<p>2015/16</p>
+					</div>
+				</div>
+				<div class="img_columna">
+					<img src="imatges/PAdel4.jpg" alt="">
+					<div class="layer2">
+						<h5>Torneig Pàdel</h5>
+						<p>2016/17</p>
+					</div>
+				</div>
+				<div class="img_columna">
+					<img src="imatges/Vic Equip Padel.jpg" alt="">
+					<div class="layer2">
+						<h5>Equip de Pàdel</h5>
+						<p>Competeix amb Altres Clubs</p>
+					</div>
+				</div>
+			</div>
+			<div class="bloc_imatges">
+				<div class="img_columna">
+					<img src="imatges/Copa Inercontinental 2016.jpeg" alt="">
+					<div class="layer2">
+						<h5>Campions de l'Intercontinental</h5>
+						<p>Declarats Campions 2017/18</p>
+					</div>
+				</div>
+				<div class="img_columna">
+					<img src="imatges/1rEquip.jpg" alt="">
+					<div class="layer2">
+						<h5>Campions de l'Intercontinental</h5>
+						<p>Declarats Campions 2017/18</p>
+					</div>
+				</div>
+				<div class="img_columna">
+					<img src="imatges/CopadelRei.jpg" alt="">
+					<div class="layer2">
+						<h5>Campions de la Copa del Rei</h5>
+						<p>Temporada 2009/10</p>
+					</div>
+				</div>
+				<div class="img_columna">
+					<img src="imatges/BgeEquip1r.jpg" alt="">
+					<div class="layer2">
+						<h5>Primer Equip</h5>
+						<p>Temporada 2019/20</p>
+					</div>
+				</div>
+			</div>
+			<div class="bloc_imatges">
+				<div class="img_columna">
+					<img src="imatges/Foto11.jpg" alt="">
+					<div class="layer2">
+						<h5>Vic vs Barça</h5>
+						<p>Un Enfrontament Decisiu</p>
+					</div>
+				</div>
+				<div class="img_columna">
+					<img src="imatges/Base.jpg" alt="">
+					<div class="layer2">
+						<h5>Hoquei Base</h5>
+						<p>Fotos dels Pasats Partits</p>
+					</div>
+				</div>
+				<div class="img_columna">
+					<img src="imatges/Bar.jpg" alt="">
+					<div class="layer2">
+						<h5>Estada de Club</h5>
+						<p>Gaudeix de la Millor Gent amb els Millors Acompanyaments</p>
+					</div>
+				</div>
+				<div class="img_columna">
+					<img src="imatges/Vic vs Vol.jpg" alt="">
+					<div class="layer2">
+						<h5>Vic vs Voltregà</h5>
+						<p>Un Dèrvi Mai Vist</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="enllaços-interes">
+		<h2>Enllaços d'Interès</h2>
+		<h4>Pàgines que et Podrien Interessar</h4>
+
+		<div class="imatges-enllaços">
+			<div class="enllac">
+				<a href="https://www.cptaradell.cat/" target="_blank">
+					<img src="imatges/Taradell_LluitaOkLLiga.png" alt="Taradell">
+				</a>
+				<p>El Taradell lluita per l'Ascens</p>
+			</div>
+			<div class="enllac">
+				<a href="https://www.cpvoltrega.com/" target="_blank">
+					<img src="imatges/Voltregà Cmapio EuropaLeague.jpeg" alt="Voldregà">
+				</a>
+				<p>El Voldregà Campió de l'Europa League</p>
+			</div>
+			<div class="enllac">
+				<a href="https://reusdeportiu.org/" target="_blank">
+					<img src="imatges/Alex Rdrigz.jpg" alt="Reus">
+				</a>
+				<p>El Reus s'enfronta al Liceo</p>
+			</div>
+			<div class="enllac">
+				<a href="http://cenoia.com/" target="_blank">
+					<img src="imatges/Noia vs Igualada.jpg" alt="Noia"></a>
+				<p>El Noia s'Imposa a l'Ateneu</p>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="lletres_contact">
+			<div class="club_info">
+				<h3><i class="fa fa-map-marker" aria-hidden="true"></i> Avinguda d'Olímpia, 15, 08500 Vic, Barcelona
+				</h3>
+				<h3><i class="fa fa-phone" aria-hidden="true"></i> Tel. +34 621201166</h3>
+				<h3><i class="fa fa-envelope" aria-hidden="true"></i> email: contacte@cpvic.cat</h3>
+			</div>
+			<img src="imatges/PatiVicLocation.png" alt="logo" width="40%" height="40%">
+		</div>
+
+		<div class="icones-footer">
+			<a href="https://www.instagram.com/vichoqueiclub/?img_index=1" class="icon" target="_blank">
+				<img src="imatges/intagram-red.png" alt="Instagram"></a>
+			<a href="https://www.facebook.com/ClubPatiVic/?locale=ca_ES" class="icon" target="_blank">
+				<img src="imatges/facebook-red.png" alt="Facebook"></a>
+			<a href="https://www.youtube.com/channel/UCCkP8rvatvDMnY6qtdTe2Dg" class="icon" target="_blank">
+				<img src="imatges/yt2-red.png" alt="YouTube"></a>
+		</div>
+	</footer>
+</body>
+
+</html>
+
+
+
+
+/* __________________________________________________________________________________ */
+/*        CSS Global          */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+/*Barra navegació*/
+
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    flex-basis: 50%;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding-bottom: 10px;
+}
+
+a {
+    color: rgb(38, 38, 38);
+    font-size: 25px;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    width: 80%;
+    background-color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    z-index: 1;
+}
+
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 75px;
+}
+
+.nav_links li a {
+    transition: all 0.5 ease 0s;
+}
+
+.nav_links li a:hover {
+    color: rgb(201, 7, 7);
+}
+
+.boto {
+    /* Boto Apunta't */
+    width: 500px;
+    color: #000;
+    font-size: 25px;
+    padding: 12px 0;
+    background: #aa0202;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+    color: white;
+
+}
+
+/* -------------------------------------------------------------- */
+
+
+
+
+
+/*Landing Page*/
+
+video {
+    margin-top: 8%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40vw;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imatges/FF2015.jpg);
+    background-position: center;
+    background-size: 100%;
+
+    margin-top: 8%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40vw;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.row {
+    width: 100%;
+    height: 1000px;
+
+    margin-bottom: 5%;
+
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+    padding: 5%;
+    box-sizing: border-box;
+
+    padding-top: 20%;
+    flex-basis: 50%;
+}
+
+
+
+button {
+    /* Boto Patinant des del 1951 */
+    width: 180px;
+    padding: 9px 25px;
+    font-size: 24px;
+    background-color: rgb(169, 17, 0);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.5 ease 0s;
+    outline: none;
+    margin-bottom: 5%;
+
+    transition: 1s;
+}
+
+button:hover {
+    transform: translateY(-10px);
+}
+
+.títol {
+    flex-basis: 50%;
+    padding-top: 3%;
+    padding-bottom: 10%;
+}
+
+p {
+    margin-top: 50%;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 0 5px black;
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0 0 5px black;
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+
+
+
+/* -------------------------------------------------------------- */
+
+
+/* Soci */
+
+.cta-icones {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+
+    flex-basis: 50%;
+
+    align-items: center;
+
+}
+
+.files {
+    padding: 1%;
+    display: flex;
+    align-items: end;
+
+    box-sizing: border-box;
+}
+
+h6 {
+    margin-top: 50%;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    margin-bottom: 0;
+}
+
+.fotos-llargues {
+    flex-basis: 32%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+
+    margin: 5px;
+
+    transition: 1s;
+}
+
+.fotos-llargues img {
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+
+.layer:hover {
+    background: rgba(226, 0, 0, 0.7);
+}
+
+.fotos-llargues:hover {
+    transform: translateY(-10px);
+}
+
+.layer h5 {
+    width: 100%;
+    font-weight: 800;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+
+    opacity: 0;
+
+    transition: 2s;
+}
+
+.layer:hover h5 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+.layer p {
+    width: 100%;
+    font-weight: 200;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+
+    text-align: center;
+    margin-top: 50%;
+
+    font-size: 20px;
+    margin-bottom: 10px;
+
+    opacity: 0;
+
+    transition: 2s;
+}
+
+.layer:hover p {
+    bottom: 29%;
+    opacity: 1;
+}
+
+
+
+/* -------------------------------------------------------------- */
+
+
+/* Noticies */
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    text-align: center;
+    margin: 10px 0;
+}
+
+h4 {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.noticies {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    flex-basis: 50%;
+}
+
+.files2 {
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.noticies-col1,
+.noticies-col2,
+.noticies-col3,
+.noticies-col4,
+.noticies-col5,
+.noticies-col6,
+.noticies-col7,
+.noticies-col8,
+.noticies-col9 {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    background-position: center;
+    background-size: cover;
+}
+
+.noticies-col1 {
+    background-image: url(imatges/GradaVigatans.jpg);
+}
+
+.noticies-col2 {
+    background-image: url(imatges/Vic\ vs\ Vol.jpg);
+}
+
+.noticies-col3 {
+    background-image: url(imatges/Benfica.jpg);
+}
+
+.noticies-col4 {
+    background-image: url(imatges/TitiCopaCampio.jpg);
+}
+
+.noticies-col5 {
+    background-image: url(imatges/copadelRei_.jpg);
+}
+
+.noticies-col6 {
+    background-image: url(imatges/Joan.jpg);
+}
+
+.noticies-col7 {
+    background-image: url(imatges/Paquita\ i\ Reamón\ del\ Bar.png);
+}
+
+.noticies-col8 {
+    background-image: url(imatges/6-0.png);
+}
+
+.noticies-col9 {
+    background-image: url(imatges/Joan\ Pujalte.png);
+}
+
+/* Afegit per assegurar-se que totes les imatges tinguin les mateixes dimensions */
+.noticies-col1 img,
+.noticies-col2 img,
+.noticies-col3 img,
+.noticies-col4 img,
+.noticies-col5 img,
+.noticies-col6 img,
+.noticies-col7 img,
+.noticies-col8 img,
+.noticies-col9 img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+/* -------------------------------------------------------------- */
+
+
+/* Galeria de fotos */
+.espai {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container_galeria {
+    margin-top: 100px;
+    width: 90%;
+    margin: auto;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    align-items: end;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    align-items: center;
+
+}
+
+.bloc_imatges {
+    display: flex;
+    align-items: end;
+
+    box-sizing: border-box;
+}
+
+.img_columna {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 5px;
+
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+
+    margin: 5px;
+
+    transition: 1s;
+}
+
+.img_columna img {
+    width: 100%;
+    height: auto;
+    display: block;
+    align-items: stretch;
+
+}
+
+.layer2 {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+
+.layer2:hover {
+    background: rgba(79, 78, 78, 0.7);
+}
+
+.img_columna:hover {
+    transform: translateY(-10px);
+}
+
+.layer2 h5 {
+    font-weight: 800;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+
+    opacity: 0;
+
+    transition: 2s;
+}
+
+.layer2:hover h5 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+.layer2 p {
+    width: 100%;
+    font-weight: 200;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+
+    text-align: center;
+    margin-top: 50%;
+
+    font-size: 20px;
+    margin-bottom: 10px;
+
+    opacity: 0;
+
+    transition: 2s;
+}
+
+.layer2:hover p {
+    bottom: 29%;
+    opacity: 1;
+}
+
+
+/* -------------------------------------------------------------- */
+
+
+/* Enllaos d'interés */
+
+.enllaços-interes {
+    width: 94%;
+    margin: 2% 3% 8%;
+    text-align: center;
+}
+
+.imatges-enllaços {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.enllac {
+    width: 18%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.enllac img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.enllac p {
+    background-color: #696969;
+    padding: 10px;
+    margin: 0;
+}
+
+
+/* -------------------------------------------------------------- */
+
+
+/* Info de Contacte */
+
+footer {
+    padding-top: 3%;
+    padding-bottom: 100px;
+    background-color: aliceblue;
+}
+
+.lletres_contact {
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+
+.club_info {
+    float: left;
+    width: 60%;
+}
+
+.club_info img {
+    float: right;
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+
+h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 3%;
+}
+
+
+.icones-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icon {
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon img {
+    width: 75px;
+    height: auto;
+}
+
+.icon:hover {
+    transform: translateY(-15px);
+}
+
+
+
+/* -------------------------------------------------------------- */
+
+
+/* Sobre Nosaltres (Sub Pàgina) */
+.sobre_nosaltres {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow: hidden;
+    /* Afegeix overflow per a netejar els floats i mantenir el contenedor. */
+}
+
+.sobre_nosaltres h5 {
+    text-align: left;
+    margin-left: 5%;
+
+}
+
+.nosaltres_txt {
+    margin-top: 2%;
+    float: left;
+    width: 60%;
+
+}
+
+.sobre_nosaltres img {
+    float: right;
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+
+
+
+
+/* -------------------------------------------------------------- */
+
+
+
+
+/* Responsive */
+
+/* Consultes de mitjans per a pantalles petites (mòbils) */
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        /* Afegim això per evitar que la secció .row es quedi darrere de la capçalera */
+        z-index: 1;
+        /* Assegura que la capçalera estigui per sobre de la resta del contingut */
+    }
+
+    .row {
+        position: relative;
+        z-index: 0;
+        margin-bottom: 3%;
+        height: 30vw;
+    }
+
+    #image {
+        height: 55vw;
+    }
+
+    video {
+        height: 30vh;
+        width: 100%;
+    }
+
+    body {
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 23px;
+    }
+
+    h6 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .cta button {
+        font-size: 14px;
+    }
+
+    .img_columna {
+        transition: transform 1s, box-shadow 1s;
+    }
+
+    .fotos-llargues {
+        transition: transform 1s, box-shadow 1s;
+    }
+
+    .nav_links {
+        margin-top: 15px;
+    }
+
+    .nav_links li {
+        padding: 0 20px;
+    }
+
+    .boto {
+        width: 100%;
+    }
+
+    .cta {
+        margin-top: 15px;
+    }
+
+    .row {
+        height: auto;
+        padding: 10% 5%;
+    }
+
+    .títol {
+        padding-top: 0;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .cta-icones {
+        flex-direction: column;
+
+    }
+
+    .files {
+        flex-direction: column;
+    }
+
+    .fotos-llargues,
+    .noticies-col1,
+    .noticies-col2,
+    .noticies-col3,
+    .noticies-col4,
+    .noticies-col5,
+    .noticies-col6,
+    .noticies-col7,
+    .noticies-col8,
+    .noticies-col9 {
+        flex-basis: 100%;
+        margin-bottom: 5%;
+    }
+
+    .img_columna {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .bloc_imatges {
+        flex-direction: column;
+    }
+
+    .club_info {
+        margin: 5px;
+    }
+
+
+
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lletres_contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .club_info {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .club_info img {
+        width: 80%;
+        height: auto;
+    }
+
+    .lletres_contact h3 {
+        text-align: center;
+    }
+
+    .icon img {
+        width: 50px;
+    }
+
+    .enllaços-interes {
+        width: 95%;
+    }
+
+    .imatges-enllaços {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2%;
+    }
+
+    .enllac {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .enllac img {
+        border-radius: 10px;
+    }
+
+
+    .sobre_nosaltres h5 {
+        text-align: center;
+    }
+
+    .nosaltres_txt,
+    .sobre_nosaltres img {
+        float: none;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Animacions */
+
+/* Header */
+#animate-header {
+    /*Lletres Club Patí Vic d'Esquerra a dreta + opacity*/
+    opacity: 0;
+    transform: translateX(-300px);
+    animation: fadeInLeft 1s ease-in-out forwards;
+}
+
+@keyframes fadeInLeft {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+/* Animació de cta-icones - Apartat de Fes-te Soci */
+/* Animació secció "files" */
+.cta-icones {
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: fadeInDown 1s ease-in-out 0.5s forwards;
+}
+
+.files {
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: fadeInDown 1s ease-in-out 0.5s forwards;
+}
+
+.cta {
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: fadeInDown 1s ease-in-out 0.5s forwards;
+}
+
+.noticies {
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: fadeInDown 1s ease-in-out 1s forwards;
+}
+
+.files2 {
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: fadeInDown 1s ease-in-out 1s forwards;
+}
+
+.espai {
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: fadeInDown 1s ease-in-out 1.5s forwards;
+}
+
+
+.enllaços-interes {
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: fadeInDown 1s ease-in-out 2s forwards;
+}
+
+
+/*Keyframes globals per a tota la web */
+@keyframes fadeInDown {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Animació sobre nosaltres */
+
+.sobre_nosaltres {
+    opacity: 0;
+    transform: translateY(1000px);
+    animation: apareixer 0.05s ease forwards, moureDreta 2s ease 0.5s forwards;
+}
+
+@keyframes apareixer {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes moureDreta {
+    to {
+        transform: translateX(0);
+    }
+}

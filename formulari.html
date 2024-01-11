@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="estil.css">
+	<link rel="stylesheet" href="formulari_estil.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="imatges/Escut.png" type="image/x-icon">
+	<script src="docJava.js"></script>
+</head>
+
+<body>
+	<header>
+		<a href="index.html"><img class="logo" src="imatges/escut.png" alt="logo" width="40%" height="40%"></a>
+		<nav>
+			<ul class="nav_links">
+				<li><a href="serveis.html">Serveis</a></li>
+				<li><a href="noticies.html">Notícies</a></li>
+				<li><a href="galeria.html">Galeria</a></li>
+				<li><a href="nosaltres.html">Sobre Nosaltres</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<div class="container">
+		<div class="formulari">
+			<form id="inscriptionForm">
+				<label for="nom">Nom:</label>
+				<input type="text" id="nom" name="nom" required>
+
+				<label for="cognoms">Cognoms:</label>
+				<input type="text" id="cognoms" name="cognoms" required>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="telefon">Telèfon:</label>
+				<input type="tel" id="telefon" name="telefon" required>
+
+				<label for="codiPostal">Codi Postal:</label>
+				<input type="text" id="codiPostal" name="codiPostal" required>
+
+				<label for="carrer">Carrer:</label>
+				<input type="text" id="carrer" name="carrer" required>
+
+				<label for="numCarrer">Número:</label>
+				<input type="text" id="numCarrer" name="numCarrer" required>
+
+
+				<label for="plan">Selecciona el teu pla:</label>
+				<select id="plan" name="plan" required>
+					<option value="roller">Roller Plan</option>
+					<option value="tenist">Tenist Plan</option>
+					<option value="social">Social Plan</option>
+				</select>
+
+				<button type="submit">Enviar les Dades</button>
+			</form>
+		</div>
+	</div>
+	
+	<footer>
+		<div class="lletres_contact">
+			<div class="club_info">
+				<h3><i class="fa fa-map-marker" aria-hidden="true"></i> Avinguda d'Olímpia, 15, 08500 Vic, Barcelona
+				</h3>
+				<h3><i class="fa fa-phone" aria-hidden="true"></i> Tel. +34 621201166</h3>
+				<h3><i class="fa fa-envelope" aria-hidden="true"></i> email: contacte@cpvic.cat</h3>
+			</div>
+			<img src="imatges/PatiVicLocation.png" alt="logo" width="40%" height="40%">
+		</div>
+
+		<div class="icones-footer">
+			<a href="https://www.instagram.com/vichoqueiclub/?img_index=1" class="icon" target="_blank">
+				<img src="imatges/intagram-red.png" alt="Instagram"></a>
+			<a href="https://www.facebook.com/ClubPatiVic/?locale=ca_ES" class="icon" target="_blank">
+				<img src="imatges/facebook-red.png" alt="Facebook"></a>
+			<a href="https://www.youtube.com/channel/UCCkP8rvatvDMnY6qtdTe2Dg" class="icon" target="_blank">
+				<img src="imatges/yt2-red.png" alt="YouTube"></a>
+		</div>
+	</footer>
+</body>
+</html>

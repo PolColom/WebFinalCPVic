@@ -1,0 +1,1323 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-bottom: 5px;
+}
+
+
+
+/* --------------------------- */
+/*Lletres */
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    flex-basis: 50%;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding-bottom: 10px;
+    margin-top: 5%;
+}
+
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    text-align: center;
+    margin: 10px 0;
+}
+
+h4 {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    text-align: center;
+}
+
+h5 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0 0 5px black;
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+
+h6 {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 50%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    margin-bottom: 0;
+}
+
+
+p {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 50%;
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 0 5px black;
+    margin-bottom: 10px;
+}
+
+/*Barra navegació*/
+
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a {
+    color: rgb(38, 38, 38);
+    font-size: 25px;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    width: 80%;
+    background-color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    z-index: 1; /* Ho posa al davant de tot, és a dir, com a layer principal */
+}
+
+.logo {
+    cursor: pointer;
+    animation: icona-anim 3s;
+}
+
+.logo:hover{
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;/* Animació smooth */
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 75px;
+}
+
+.nav_links li a {
+    transition: all 0.5 ease 0s;
+}
+
+.nav_links li a:hover {
+    color: rgb(201, 7, 7);
+}
+
+.boto {    /* Boto Apunta't */
+    width: 500px;
+    color: #000;
+    font-size: 25px;
+    padding: 12px 0;
+    background: #aa0202;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+    color: white;
+
+}
+
+
+
+/* -------------------------------------------------------------- */
+
+
+
+
+/*Landing Page*/
+
+video {
+    margin-top: 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40vw;/*View*/
+    object-fit: cover;
+    z-index: -1;/* Ho posem com a background */
+}
+
+#image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imatges/FF2015.jpg);
+    background-position: center;
+    background-size: 100%;
+
+    margin-top: 8%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40vw;
+    object-fit: cover;
+    z-index: -1;/* Ho posem com a background */
+}
+
+.row {
+    width: 100%;
+    height: 1000px;
+
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+    padding: 5%;
+    box-sizing: border-box;
+
+    padding-top: 20%;
+    flex-basis: 50%;
+}
+
+
+
+button {    /* Boto Patinant des del 1951 */
+    width: 180px;
+    padding: 9px 25px;
+    font-size: 24px;
+
+    background-color: rgb(169, 17, 0);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.5 ease 0s;
+    outline: none;
+    margin-bottom: 5%;
+
+    transition: 1s;
+}
+
+button:hover {
+    transform: translateY(-10px);
+}
+
+.títol {
+    flex-basis: 50%;
+
+}
+
+
+
+
+/* -------------------------------------------------------------- */
+
+
+/* Soci */
+
+.cta-icones {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 7%;
+    flex-basis: 50%;
+
+    align-items: center;
+
+}
+
+.files {
+    padding: 1%;
+    display: flex;
+    align-items: end;
+
+    box-sizing: border-box;
+}
+
+
+.fotos-llargues {
+    flex-basis: 32%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+
+    margin: 5px;
+
+    transition: 1s;
+}
+
+.fotos-llargues img {
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+
+.layer:hover {
+    background: rgba(226, 0, 0, 0.7);
+}
+
+.fotos-llargues:hover {
+    transform: translateY(-10px);
+}
+
+.layer h5 {
+    width: 100%;
+    font-weight: 800;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+
+    opacity: 0;
+
+    transition: 2s;
+}
+
+.layer:hover h5 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+.layer p {
+    width: 100%;
+    font-weight: 200;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+
+    text-align: center;
+    margin-top: 50%;
+
+    font-size: 20px;
+    margin-bottom: 10px;
+
+    opacity: 0;
+
+    transition: 2s;
+}
+
+.layer:hover p {
+    bottom: 29%;
+    opacity: 1;
+}
+
+
+
+
+
+/* -------------------------------------------------------------- */
+
+
+/* Noticies */
+
+.noticies {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    flex-basis: 50%;
+}
+
+.files2 {
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.noticies-col1,
+.noticies-col2,
+.noticies-col3,
+.noticies-col4,
+.noticies-col5,
+.noticies-col6,
+.noticies-col7,
+.noticies-col8,
+.noticies-col9 {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    background-position: center;
+    background-size: cover;
+}
+
+.noticies-col1 {
+    background-image: url(imatges/GradaVigatans.jpg);
+}
+
+.noticies-col2 {
+    background-image: url(imatges/Voltregà\ Cmapio\ EuropaLeague.jpeg);
+}
+
+.noticies-col3 {
+    background-image: url(imatges/Benfica.jpg);
+}
+
+.noticies-col4 {
+    background-image: url(imatges/TitiCopaCampio.jpg);
+}
+
+.noticies-col5 {
+    background-image: url(imatges/copadelRei_.jpg);
+}
+
+.noticies-col6 {
+    background-image: url(imatges/Joan.jpg);
+}
+
+.noticies-col7 {
+    background-image: url(imatges/Paquita\ i\ Reamón\ del\ Bar.png);
+}
+
+.noticies-col8 {
+    background-image: url(imatges/6-0.png);
+}
+
+.noticies-col9 {
+    background-image: url(imatges/Joan\ Pujalte.png);
+}
+
+/* Afegit per assegurar-se que totes les imatges tinguin les mateixes dimensions */
+.noticies-col1 img,
+.noticies-col2 img,
+.noticies-col3 img,
+.noticies-col4 img,
+.noticies-col5 img,
+.noticies-col6 img,
+.noticies-col7 img,
+.noticies-col8 img,
+.noticies-col9 img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+/* Calendari */
+
+.espai_cal{
+    font-family: cursive;
+    display: grid;
+    place-items: center;
+    
+}
+
+.calendari {
+    margin-top: 5%;
+    height: max-content;
+    width: max-content;
+    background-color: #fdfdfd;
+    border-radius: 30px;
+    padding: 20px;
+    overflow: hidden;
+
+    position: relative;
+    align-items: center;
+
+}
+
+.espai_cal .calendari {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.capçalera-calendari {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #151426;
+    padding: 10px;
+}
+
+.cos-calendari {
+    padding: 10px;
+}
+
+.setmana-dies {
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-weight: 600;
+}
+
+.setmana-dies div {
+    display: grid;
+    place-items: center;
+    color: #79788c;
+}
+
+.dies-calendari {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    color: #151426;
+}
+
+.dies-calendari div {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+    animation: amunt 1s forwards;
+}
+
+.dies-calendari div span {
+    position: absolute;
+}
+
+.dies-calendari div:hover span {
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
+}
+
+.dies-calendari div span:nth-child(1),
+.dies-calendari div span:nth-child(3) {
+    width: 2px;
+    height: 0;
+    background-color: #151426;
+}
+
+.dies-calendari div:hover span:nth-child(1),
+.dies-calendari div:hover span:nth-child(3) {
+    height: 100%;
+}
+
+.dies-calendari div span:nth-child(1) {
+    bottom: 0;
+    left: 0;
+}
+
+.dies-calendari div span:nth-child(3) {
+    top: 0;
+    right: 0;
+}
+
+.dies-calendari div span:nth-child(2),
+.dies-calendari div span:nth-child(4) {
+    width: 0;
+    height: 2px;
+    background-color: #151426;
+}
+
+.dies-calendari div:hover span:nth-child(2),
+.dies-calendari div:hover span:nth-child(4) {
+    width: 100%;
+}
+
+.dies-calendari div span:nth-child(2) {
+    top: 0;
+    left: 0;
+}
+
+.dies-calendari div span:nth-child(4) {
+    bottom: 0;
+    right: 0;
+}
+
+.dies-calendari div:hover span:nth-child(2) {
+    transition-delay: 0.2s;
+}
+
+.dies-calendari div:hover span:nth-child(3) {
+    transition-delay: 0.4s;
+}
+
+.dies-calendari div:hover span:nth-child(4) {
+    transition-delay: 0.6s;
+}
+
+.dies-calendari div.curr-data,
+.dies-calendari div.curr-data:hover {
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.dies-calendari div.curr-data span {
+    display: none;
+}
+
+.seleccionador-mes {
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.seleccionador-mes:hover {
+    background-color: #edf0f5;
+}
+
+.seleccionador-any {
+    display: flex;
+    align-items: center;
+}
+
+.canvi-any {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.canvi-any:hover {
+    background-color: #edf0f5;
+}
+
+.peu-calendari {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.llista-mesos {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fdfdfd;
+    padding: 20px;
+    grid-template-columns: repeat(3, auto);
+    gap: 5px;
+    display: grid;
+    transform: scale(1.5);
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.llista-mesos.show {
+    transform: scale(1);
+    visibility: visible;
+    pointer-events: visible;
+    transition: all 0.2s ease-in-out;
+}
+
+.llista-mesos>div {
+    display: grid;
+    place-items: center;
+}
+
+.llista-mesos>div>div {
+    width: 100%;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #151426;
+}
+
+.llista-mesos>div>div:hover {
+    background-color: #edf0f5; 
+}
+
+.dies-calendari div.partit {
+    position: relative;
+}
+
+.dies-calendari div.partit::before {
+    content: '\26BD'; 
+    font-size: 14px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: #ff0000; 
+}
+
+@keyframes amunt {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+
+/* -------------------------------------------------------------- */
+
+
+/* Galeria de fotos */
+
+.galeria{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.container_galeria {
+    width: 90%;
+    margin: auto;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    align-items: end;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    align-items: center;
+
+}
+
+.bloc_imatges {
+    display: flex;
+    align-items: end;
+
+    box-sizing: border-box;
+}
+
+.img_columna {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 5px;
+
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+
+    margin: 5px;
+
+    transition: 1s;
+}
+
+.img_columna img {
+    width: 100%;
+    height: auto;
+    display: block;
+    align-items: stretch;
+
+}
+
+.layer2 {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+
+.layer2:hover {
+    background: rgba(79, 78, 78, 0.7);
+}
+
+.img_columna:hover {
+    transform: translateY(-10px);
+}
+
+.layer2 h5 {
+    font-weight: 800;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+
+    opacity: 0;
+
+    transition: 2s;
+}
+
+.layer2:hover h5 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+.layer2 p {
+    width: 100%;
+    font-weight: 200;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+
+    text-align: center;
+    margin-top: 50%;
+
+    font-size: 20px;
+    margin-bottom: 10px;
+
+    opacity: 0;
+
+    transition: 2s;
+}
+
+.layer2:hover p {
+    bottom: 29%;
+    opacity: 1;
+}
+
+
+
+/* -------------------------------------------------------------- */
+
+
+/* Enllaos d'interés */
+
+.enllaços-interes {
+    width: 94%;
+    margin: 2% 3% 8%;
+    text-align: center;
+}
+
+.imatges-enllaços {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.enllac {
+    width: 18%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.enllac img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.enllac p {
+    background-color: #696969;
+    padding: 10px;
+    margin: 0;
+}
+
+
+/* -------------------------------------------------------------- */
+
+
+/* Info de Contacte */
+
+footer {
+    padding-top: 5%;
+    padding-bottom: 100px;
+    background-color: aliceblue;
+}
+
+.lletres_contact {
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+
+.club_info {
+    float: left;
+    width: 60%;
+}
+
+.club_info img {
+    float: right;
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+
+h3 {
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 3%;
+}
+
+
+.icones-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icon {
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon img {
+    width: 75px;
+    height: auto;
+}
+
+.icon:hover {
+    transform: translateY(-15px);
+}
+
+
+
+/* -------------------------------------------------------------- */
+
+
+/* Sobre Nosaltres (Sub Pàgina) */
+.sobre_nosaltres {
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+
+.sobre_nosaltres h5 {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.nosaltres_txt {
+    margin-top: 2%;
+    float: left;
+    width: 60%;
+}
+
+.sobre_nosaltres img {
+    float: right;
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+
+
+
+/* -------------------------------------------------------------- */
+
+
+
+/* Responsive */
+
+/* Consultes de mitjans per a pantalles petites (mòbils) */
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative; /* Per evitar que la secció .row es quedi darrere de la capçalera */
+        z-index: 1;
+    }
+
+    .row {
+        position: relative;
+        z-index: 0;
+        margin-bottom: 3%;
+        height: 30vw;
+    }
+
+    #image {
+        height: 55vw;
+    }
+
+    video {
+        height: 30vh;
+        width: 100%;
+    }
+
+    body {
+        font-size: 30px;
+        align-items: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 27px;
+        align-items: center;
+        margin-top: 15%;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+
+    h5 {
+        font-size: 23px;
+    }
+
+    h6 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .cta button {
+        font-size: 14px;
+    }
+
+    .img_columna {
+        transition: transform 1s, box-shadow 1s;
+    }
+
+    .fotos-llargues {
+        transition: transform 1s, box-shadow 1s;
+    }
+
+    .nav_links {
+        margin-top: 15px;
+    }
+
+    .nav_links li {
+        padding: 0 20px;
+    }
+
+    .boto {
+        width: 100%;
+    }
+
+    .cta {
+        margin-top: 15px;
+    }
+
+    .row {
+        height: auto;
+        padding: 10% 5%;
+    }
+
+    .títol {
+        padding-top: 0;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .cta-icones {
+        flex-direction: column;
+
+    }
+
+    .files {
+        flex-direction: column;
+    }
+
+    .noticies{
+        align-items: center;
+    }
+
+    .fotos-llargues,
+    .noticies-col1,
+    .noticies-col2,
+    .noticies-col3,
+    .noticies-col4,
+    .noticies-col5,
+    .noticies-col6,
+    .noticies-col7,
+    .noticies-col8,
+    .noticies-col9 {
+        flex-basis: 100%;
+        margin-bottom: 5%;
+    }
+
+
+    .espai_cal{
+        max-width: 100%;
+        flex-basis: 100%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    .container_galeria{
+        align-items: center;
+    }
+
+    .calendari {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .calendari *,
+    .dies-calendari div {
+        font-size: 10px;
+    }
+
+    .dies-calendari div {
+        width: 40px;
+        height: 40px;
+        margin: 1px;
+    }
+
+    .llista-mesos {
+        padding: 10px;
+    }
+
+    .llista-mesos>div>div {
+        padding: 5px 10px;
+    }
+
+
+
+    .img_columna {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .bloc_imatges {
+        flex-direction: column;
+    }
+
+    .club_info {
+        margin: 5px;
+    }
+
+
+
+
+    footer {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lletres_contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .club_info {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .club_info img {
+        width: 80%;
+        height: auto;
+    }
+
+    .lletres_contact h3 {
+        text-align: center;
+    }
+
+    .icon img {
+        width: 50px;
+    }
+
+    .enllaços-interes {
+        width: 95%;
+    }
+
+    .imatges-enllaços {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2%;
+    }
+
+    .enllac {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .enllac img {
+        border-radius: 10px;
+    }
+
+
+    .sobre_nosaltres h5 {
+        text-align: center;
+    }
+
+    .nosaltres_txt,
+    .sobre_nosaltres img {
+        float: none;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Animacions */
+
+/* Header */
+#animate-header {
+    /*Lletres Club Patí Vic d'Esquerra a dreta + opacity*/
+    opacity: 0;
+    transform: translateX(-300px);
+    animation: fadeInLeft 1s ease-in-out forwards;
+}
+
+@keyframes fadeInLeft {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+/* Animació de cta-icones - Apartat de Fes-te Soci */
+/* Animació secció "files" */
+.cta-icones {
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: fadeInDown 1s ease-in-out 0.5s forwards;
+}
+
+
+.files {
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: fadeInDown 1s ease-in-out 0.5s forwards;
+}
+
+.cta {
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: fadeInDown 1s ease-in-out 0.5s forwards;
+}
+
+.noticies {
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: fadeInDown 1s ease-in-out 1s forwards;
+}
+
+.files2 {
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: fadeInDown 1s ease-in-out 1s forwards;
+}
+
+.espai_cal {
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: fadeInDown 1s ease-in-out 1.5s forwards;
+}
+
+
+.enllaços-interes {
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: fadeInDown 1s ease-in-out 2s forwards;
+}
+
+
+/*Keyframes globals per a tota la web */
+@keyframes fadeInDown {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Animació sobre nosaltres */
+
+.sobre_nosaltres {
+    opacity: 0;
+    transform: translateY(1000px);
+    animation: apareixer 0.05s ease forwards, moureDreta 2s ease 0.5s forwards;
+}
+
+@keyframes apareixer {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes moureDreta {
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes icona-anim {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    75%{
+        transform: scale(1.3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,86 @@
+/* Estils generals */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    z-index: 1;
+}
+
+
+.container {
+    background-color: #fb0404b8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    width: 50%;
+    margin: auto;
+    padding-top: 10%;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    margin-bottom: 8px;
+    width: 100%;
+    color: #ffffff;
+}
+
+input,
+textarea,
+select {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    width: 100%;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+button {
+    padding: 10px;
+    background-color: #ffffff;
+    color: #ff0000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #efeded;
+    color: #000000;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        font-size: 14px; 
+    }
+
+    label,
+    input,
+    textarea,
+    select {
+        font-size: 14px; 
+    }
+
+    button{
+        font-size: 14px;
+    }
+}
