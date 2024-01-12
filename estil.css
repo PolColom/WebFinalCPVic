@@ -347,6 +347,7 @@ button:hover {
     margin: auto;
     text-align: center;
     flex-basis: 50%;
+    margin-top: 5%;
 }
 
 .files2 {
@@ -1266,6 +1267,12 @@ h3 {
     opacity: 0;
     transform: translateY(-100px);
     animation: fadeInDown 1s ease-in-out 1.5s forwards;
+}
+
+.galeria {
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: fadeInDown 1s ease-in-out 1s forwards;
 }
 
 
